@@ -1,0 +1,17 @@
+CREATE TABLE `client_db`.`submenus` (
+	ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title varchar(255),
+    order int,
+    menuid int,
+    status int
+);
+
+Fields
+..........
+
+
+id
+title
+order
+menuid
+status

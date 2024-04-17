@@ -1,0 +1,5 @@
+DB fields are
+---------------
+id: int autoincrement
+name: varchar(200) , // ICICI, HDFC etc
+status: tyInt() -0/1

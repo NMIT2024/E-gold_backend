@@ -1,0 +1,5 @@
+CREATE TABLE `client_db`.`jeweller` (
+	id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title varchar(255),
+    status TINYINT
+);

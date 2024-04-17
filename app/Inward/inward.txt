@@ -1,0 +1,9 @@
+CREATE TABLE `client_db`.`inward` (
+	id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    jewellerid varchar(255),
+    selectedDate DATE,
+    createdOn DATE,
+    cvrdPosition FLOAT,
+    price FLOAT,
+    status TINYINT
+);

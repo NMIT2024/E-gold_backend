@@ -1,0 +1,21 @@
+CREATE TABLE `client_db`.`roles` (
+	ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    role varchar(255),
+    status int
+);
+
+Fields.
+............
+
+id
+role
+status
+
+
+
+
+
+
+
+
+

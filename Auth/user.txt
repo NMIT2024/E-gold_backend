@@ -1,0 +1,18 @@
+DB fields are
+------------
+ID: Int - AutoIncrement
+Name: varchar(200)
+Username: varchar(200)
+Email: varchar(200)
+Phone: varchar(200)
+Password: varchar(200)
+Role: varchar(200) // ADMIN & NEWUSER - For new user after approval Role change USER
+Status: TinyInt(200)
+
+
+DB Port - 3306
+
+
+// New user -> role = NEWUSER & status = 0
+// After approval -> role = USER & status = 1
+// After reject -> role = REJECTED & status = 2

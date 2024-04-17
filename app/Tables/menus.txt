@@ -1,0 +1,13 @@
+CREATE TABLE `client_db`.`menus` (
+	ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    menu varchar(255),
+    order int,
+    status int,
+);
+
+
+
+id
+menu
+order
+status

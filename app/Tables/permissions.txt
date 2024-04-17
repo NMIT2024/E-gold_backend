@@ -1,0 +1,12 @@
+CREATE TABLE `client_db`.`permissions` (
+	ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    roleid int,
+    menuid int
+);
+
+
+Fields
+............
+id
+roleid
+menuid

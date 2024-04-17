@@ -1,0 +1,14 @@
+DB fields are
+---------------
+id: int - autoincrement,
+clientId: int - client Id from Client table,
+fieldData: text - KYC form fields
+
+
+CREATE TABLE `client_db`.`master` (
+	ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    clientId int NOT NULL,
+    fieldData text
+);
+
+

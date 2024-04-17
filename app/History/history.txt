@@ -1,0 +1,9 @@
+id:number,
+userid:varchar(200),
+lat:float,
+long:float,
+date_time:datetime,
+history:varchar(500),
+ip_address:varchar(200),
+imei_no:varchar(200),
+
