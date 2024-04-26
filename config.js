@@ -7,6 +7,6 @@ module.exports = {
 
   key_id: "rzp_test_YasbNKa3yfpbBB",
   key_secret: "WrM3wiOSF9FzgSgJQpz1fMQ4",
-  // socketURL: "http://localhost:3000",
-  socketURL: "http://13.233.30.94:3000",
+  socketURL: "http://localhost:3000",
+  // socketURL: "http://13.233.30.94:3000",
 };
